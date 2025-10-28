@@ -1,34 +1,43 @@
 fileFormatVersion: 2
-guid: fa6bec90fa92e82489c87354cbff0ea3
+guid: 9e8921644de17e047b8f6b98d1c549f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5321949957799140045
-    second: fruit_0
+      213: 7675826601332790545
+    second: coin_0
   - first:
-      213: 6422085674583116018
-    second: fruit_1
+      213: -675104096977794455
+    second: coin_1
   - first:
-      213: 1248475614767147607
-    second: fruit_2
+      213: -4412926668834298731
+    second: coin_2
   - first:
-      213: -2199681193780744630
-    second: fruit_3
+      213: -4862007459847594908
+    second: coin_3
   - first:
-      213: 728017172041052461
-    second: fruit_4
+      213: -7914957615168794202
+    second: coin_4
   - first:
-      213: 6696335727113552053
-    second: fruit_5
+      213: 2278881825021241808
+    second: coin_5
   - first:
-      213: 2076435091191082628
-    second: fruit_6
+      213: 1763547749914876530
+    second: coin_6
   - first:
-      213: 4198489572449100032
-    second: fruit_7
+      213: 5999283557275819326
+    second: coin_7
   - first:
-      213: 3508844023488525244
-    second: fruit_8
+      213: -1468538274757268107
+    second: coin_8
+  - first:
+      213: -7420241631526070820
+    second: coin_9
+  - first:
+      213: -5387031686188697322
+    second: coin_10
+  - first:
+      213: -2681995995293344776
+    second: coin_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -120,17 +129,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fruit_0
+      name: coin_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 48
-        width: 13
-        height: 15
+        x: 2
+        y: 2
+        width: 12
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3352af4d5b2a426b0800000000000000
-      internalID: -5321949957799140045
+      spriteID: 1155fe920a3068a60800000000000000
+      internalID: 7675826601332790545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fruit_1
+      name: coin_1
       rect:
         serializedVersion: 2
         x: 19
-        y: 0
-        width: 11
-        height: 64
+        y: 2
+        width: 10
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f8c6a635e4df1950800000000000000
-      internalID: 6422085674583116018
+      spriteID: 96a4a31966c81a6f0800000000000000
+      internalID: -675104096977794455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fruit_2
+      name: coin_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 47
-        width: 13
-        height: 17
+        x: 36
+        y: 2
+        width: 8
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75aeee8f4f9735110800000000000000
-      internalID: 1248475614767147607
+      spriteID: 594a84c439222c2c0800000000000000
+      internalID: -4412926668834298731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fruit_3
+      name: coin_3
       rect:
         serializedVersion: 2
-        x: 33
-        y: 31
-        width: 13
-        height: 17
+        x: 53
+        y: 2
+        width: 6
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4e6791db992971e0800000000000000
-      internalID: -2199681193780744630
+      spriteID: 46c1c7ca9fda68cb0800000000000000
+      internalID: -4862007459847594908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fruit_4
+      name: coin_4
       rect:
         serializedVersion: 2
-        x: 1
-        y: 32
-        width: 13
-        height: 15
+        x: 68
+        y: 2
+        width: 8
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2134e1c2cf6a1a00800000000000000
-      internalID: 728017172041052461
+      spriteID: 6a15797fbfb682290800000000000000
+      internalID: -7914957615168794202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fruit_5
+      name: coin_5
       rect:
         serializedVersion: 2
-        x: 33
-        y: 15
-        width: 13
-        height: 17
+        x: 83
+        y: 2
+        width: 10
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b04c577dd92eec50800000000000000
-      internalID: 6696335727113552053
+      spriteID: 0d92c7122f630af10800000000000000
+      internalID: 2278881825021241808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fruit_6
+      name: coin_6
       rect:
         serializedVersion: 2
-        x: 1
-        y: 16
-        width: 13
-        height: 15
+        x: 98
+        y: 2
+        width: 12
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +306,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48ea999c6baf0dc10800000000000000
-      internalID: 2076435091191082628
+      spriteID: 27a9d1ab551697810800000000000000
+      internalID: 1763547749914876530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fruit_7
+      name: coin_7
       rect:
         serializedVersion: 2
-        x: 33
-        y: 0
-        width: 13
-        height: 16
+        x: 115
+        y: 2
+        width: 10
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,20 +328,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 001a2078508044a30800000000000000
-      internalID: 4198489572449100032
+      spriteID: e3d544a1c9cb14350800000000000000
+      internalID: 5999283557275819326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fruit_8
+      name: coin_8
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 13
-        height: 15
+        x: 132
+        y: 2
+        width: 8
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,8 +350,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb339487c0be1b030800000000000000
-      internalID: 3508844023488525244
+      spriteID: 57d27024834be9be0800000000000000
+      internalID: -1468538274757268107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5d25ddc81060990800000000000000
+      internalID: -7420241631526070820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619f2fe193b6d35b0800000000000000
+      internalID: -5387031686188697322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 2
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb15832ad2a7cad0800000000000000
+      internalID: -2681995995293344776
       vertices: []
       indices: 
       edges: []
@@ -335,15 +436,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fruit_0: -5321949957799140045
-      fruit_1: 6422085674583116018
-      fruit_2: 1248475614767147607
-      fruit_3: -2199681193780744630
-      fruit_4: 728017172041052461
-      fruit_5: 6696335727113552053
-      fruit_6: 2076435091191082628
-      fruit_7: 4198489572449100032
-      fruit_8: 3508844023488525244
+      coin_0: 7675826601332790545
+      coin_1: -675104096977794455
+      coin_10: -5387031686188697322
+      coin_11: -2681995995293344776
+      coin_2: -4412926668834298731
+      coin_3: -4862007459847594908
+      coin_4: -7914957615168794202
+      coin_5: 2278881825021241808
+      coin_6: 1763547749914876530
+      coin_7: 5999283557275819326
+      coin_8: -1468538274757268107
+      coin_9: -7420241631526070820
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
