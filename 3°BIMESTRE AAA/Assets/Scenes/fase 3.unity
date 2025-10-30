@@ -11720,11 +11720,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 25269885991753646, guid: f72fbf9d6a043904ebe92bd82ef63a5c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.6
+      value: -9.13
       objectReference: {fileID: 0}
     - target: {fileID: 25269885991753646, guid: f72fbf9d6a043904ebe92bd82ef63a5c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.54
       objectReference: {fileID: 0}
     - target: {fileID: 25269885991753646, guid: f72fbf9d6a043904ebe92bd82ef63a5c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11761,6 +11761,14 @@ PrefabInstance:
     - target: {fileID: 122664298060998603, guid: f72fbf9d6a043904ebe92bd82ef63a5c, type: 3}
       propertyPath: m_Name
       value: Knight02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253461333251523194, guid: f72fbf9d6a043904ebe92bd82ef63a5c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253461333251523194, guid: f72fbf9d6a043904ebe92bd82ef63a5c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.56
       objectReference: {fileID: 0}
     - target: {fileID: 7368252842465132119, guid: f72fbf9d6a043904ebe92bd82ef63a5c, type: 3}
       propertyPath: velocidade
