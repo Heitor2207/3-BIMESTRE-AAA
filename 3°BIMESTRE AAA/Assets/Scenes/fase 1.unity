@@ -5958,7 +5958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2418237717094371156, guid: 89fc54769e6eff943a27e50b402fd13e, type: 3}
       propertyPath: forcaDoPulo
-      value: 5
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 4802900308398533034, guid: 89fc54769e6eff943a27e50b402fd13e, type: 3}
       propertyPath: m_Name
