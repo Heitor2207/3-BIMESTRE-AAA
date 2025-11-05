@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a220b3c7597a14a4c9448c8d481ba2c2
+guid: 193e580b0e571554bb1b61c35b8e592b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6680728163969812129
-    second: NightBorne_idle_0
+      213: 6895685792870902548
+    second: super character preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NightBorne_idle_0
+      name: super character preview_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 240
-        height: 240
+        width: 512
+        height: 392
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f59b1a181294943a0800000000000000
-      internalID: -6680728163969812129
+      spriteID: 41b27c691b562bf50800000000000000
+      internalID: 6895685792870902548
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      NightBorne_idle_0: -6680728163969812129
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
