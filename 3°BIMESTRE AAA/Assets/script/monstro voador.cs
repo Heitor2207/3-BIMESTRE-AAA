@@ -8,7 +8,7 @@ public class InimigoVoador : MonoBehaviour
     
     private GameObject player;
 
-    public float distanciaDeVisao = 10;
+    public float distanciaDeVisao = 4;
     public float velocidade = 5;
 
     public Transform[] pontosDePatrulha;

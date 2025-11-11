@@ -11,11 +11,15 @@ public class Inimigo : MonoBehaviour
     public float distanciaDeVisao = 10;
     public float velocidade = 5;
     
+    private CircleCollider2D collider2D;
+    
     
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         rigidbody2D = GetComponent<Rigidbody2D>();
+        
+        collider2D = GetComponent<CircleCollider2D>();
         
         // player = GameObject.Find("Player");
         player = GameObject.FindGameObjectWithTag("Player");
@@ -24,6 +28,8 @@ public class Inimigo : MonoBehaviour
    
     void Update()
     {
+        distanciaDeVisao = collider2D.radius;
+        
         if (player != null)
         {
             //posição do player
@@ -31,7 +37,8 @@ public class Inimigo : MonoBehaviour
 
             //direita
             if (player.transform.position.x > transform.position.x
-                && Mathf.Abs(player.transform.position.x - transform.position.x) < distanciaDeVisao)
+                && Mathf.Abs(player.transform.position.x - transform.position.x) < distanciaDeVisao
+                && Mathf.Abs(player.transform.position.y - transform.position.y) < distanciaDeVisao)
             {
                 transform.position += Vector3.right * velocidade * Time.deltaTime;
                 spriteRenderer.flipX = false;
@@ -39,13 +46,14 @@ public class Inimigo : MonoBehaviour
             
             //esquerda
             if (player.transform.position.x < transform.position.x
-                && Mathf.Abs(player.transform.position.x - transform.position.x) < distanciaDeVisao)
+                && Mathf.Abs(player.transform.position.x - transform.position.x) < distanciaDeVisao
+                && Mathf.Abs(player.transform.position.y - transform.position.y) < distanciaDeVisao)
             {
                 transform.position -= Vector3.right * velocidade * Time.deltaTime;
                 spriteRenderer.flipX = true;
             }
 
         }
-
+        
     }
 }
