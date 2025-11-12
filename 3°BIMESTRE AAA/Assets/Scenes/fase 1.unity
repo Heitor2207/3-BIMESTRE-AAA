@@ -538,7 +538,7 @@ Transform:
   m_GameObject: {fileID: 453398266}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.44, z: 0}
+  m_LocalPosition: {x: 0, y: -0.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2260,26 +2260,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 887430655203530909, guid: 4f1a3d39d867ae849b000d0606e33ec3, type: 3}
-      propertyPath: m_Size.x
-      value: 0.7906344
-      objectReference: {fileID: 0}
-    - target: {fileID: 887430655203530909, guid: 4f1a3d39d867ae849b000d0606e33ec3, type: 3}
-      propertyPath: m_Size.y
-      value: 0.5335478
-      objectReference: {fileID: 0}
-    - target: {fileID: 887430655203530909, guid: 4f1a3d39d867ae849b000d0606e33ec3, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.0015848875
-      objectReference: {fileID: 0}
-    - target: {fileID: 887430655203530909, guid: 4f1a3d39d867ae849b000d0606e33ec3, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.000000029802322
-      objectReference: {fileID: 0}
-    - target: {fileID: 2212300199392010277, guid: 4f1a3d39d867ae849b000d0606e33ec3, type: 3}
-      propertyPath: m_SortingOrder
-      value: 36
-      objectReference: {fileID: 0}
     - target: {fileID: 2417294619515209201, guid: 4f1a3d39d867ae849b000d0606e33ec3, type: 3}
       propertyPath: m_Name
       value: slime monster (3)
@@ -6996,7 +6976,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8406572023410215790, guid: ef34f31a545eb964894e72ac4210031b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.44
+      value: -0.64
       objectReference: {fileID: 0}
     - target: {fileID: 8406572023410215790, guid: ef34f31a545eb964894e72ac4210031b, type: 3}
       propertyPath: m_LocalPosition.z
