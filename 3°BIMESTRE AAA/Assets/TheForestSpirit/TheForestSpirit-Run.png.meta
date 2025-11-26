@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TheForestSpirit-Run_0: -6487093927834282070
+      TheForestSpirit-Run_1: -6793776715211265471
+      TheForestSpirit-Run_2: -8002824375500021553
+      TheForestSpirit-Run_3: 1303271300365791760
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

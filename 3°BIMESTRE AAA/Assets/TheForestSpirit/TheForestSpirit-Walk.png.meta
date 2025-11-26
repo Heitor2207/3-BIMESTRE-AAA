@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TheForestSpirit-Walk_0: 2977187852337830350
+      TheForestSpirit-Walk_1: 3455729514443187959
+      TheForestSpirit-Walk_2: -7040059007859035319
+      TheForestSpirit-Walk_3: 3783252529636995209
+      TheForestSpirit-Walk_4: -7556820488210150984
+      TheForestSpirit-Walk_5: -9006006738792899986
+      TheForestSpirit-Walk_6: -5506217174736758330
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
