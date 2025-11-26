@@ -6,17 +6,22 @@ public class ObeliskAppearOnce : MonoBehaviour
     public float distanciaAtivar = 5f;
 
     private SpriteRenderer sr;
-    private bool jaApareceu = false;   // controla se já apareceu
+    private Animator anim;
+    private bool jaApareceu = false;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
+
         sr.enabled = false;  // começa invisível
+
+        // Garante que o obelisco não anima sozinho no começo
+        anim.Play("Idle", 0, 0f);  
     }
 
     void Update()
     {
-        // Se já apareceu antes, nunca mais desaparece
         if (jaApareceu)
             return;
 
@@ -25,7 +30,8 @@ public class ObeliskAppearOnce : MonoBehaviour
         if (dist <= distanciaAtivar)
         {
             sr.enabled = true;
-            jaApareceu = true;  // marca que já foi ativado permanentemente
+            anim.SetTrigger("Appear");  // toca a animação de aparecer
+            jaApareceu = true;
         }
     }
 }
