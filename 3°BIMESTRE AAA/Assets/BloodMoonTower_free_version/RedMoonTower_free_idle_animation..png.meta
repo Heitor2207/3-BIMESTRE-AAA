@@ -1,31 +1,40 @@
 fileFormatVersion: 2
-guid: 775bb70dc949fe0489eea6a67914870d
+guid: 822d19138f2c23944bc00ac48a300c59
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4726913989911992049
-    second: RUN_0
+      213: -4227435001158437254
+    second: RedMoonTower_free_idle_animation._0
   - first:
-      213: -1224304467317232117
-    second: RUN_1
+      213: -4233646917209677197
+    second: RedMoonTower_free_idle_animation._1
   - first:
-      213: 3159551424834153068
-    second: RUN_2
+      213: -7343736504891969453
+    second: RedMoonTower_free_idle_animation._2
   - first:
-      213: -4270742793311013030
-    second: RUN_3
+      213: -6083554418270614127
+    second: RedMoonTower_free_idle_animation._3
   - first:
-      213: -4469841436486958459
-    second: RUN_4
+      213: -7114993313860212086
+    second: RedMoonTower_free_idle_animation._4
   - first:
-      213: -5792612846293609617
-    second: RUN_5
+      213: -5564170900477571125
+    second: RedMoonTower_free_idle_animation._5
   - first:
-      213: -2380123854543253929
-    second: RUN_6
+      213: 4447534075942178317
+    second: RedMoonTower_free_idle_animation._6
   - first:
-      213: -337668074351880697
-    second: RUN_7
+      213: 7834845600494809709
+    second: RedMoonTower_free_idle_animation._7
+  - first:
+      213: -698412963896224032
+    second: RedMoonTower_free_idle_animation._8
+  - first:
+      213: -2173200318115679039
+    second: RedMoonTower_free_idle_animation._9
+  - first:
+      213: 4213756085002500049
+    second: RedMoonTower_free_idle_animation._10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,13 +130,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RUN_0
+      name: RedMoonTower_free_idle_animation._0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 5
-        width: 57
-        height: 58
+        x: 15
+        y: 4
+        width: 70
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f09a87b35c0a66eb0800000000000000
-      internalID: -4726913989911992049
+      spriteID: a76f5eca3422555c0800000000000000
+      internalID: -4227435001158437254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RUN_1
+      name: RedMoonTower_free_idle_animation._1
       rect:
         serializedVersion: 2
-        x: 180
-        y: 5
-        width: 48
-        height: 58
+        x: 115
+        y: 4
+        width: 70
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0ee1a8d295620fe0800000000000000
-      internalID: -1224304467317232117
+      spriteID: 3722a434f801f35c0800000000000000
+      internalID: -4233646917209677197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RUN_2
+      name: RedMoonTower_free_idle_animation._2
       rect:
         serializedVersion: 2
-        x: 320
-        y: 6
-        width: 58
-        height: 59
+        x: 215
+        y: 4
+        width: 70
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c6aa1d6e74bf8db20800000000000000
-      internalID: 3159551424834153068
+      spriteID: 35078ddbe8ec51a90800000000000000
+      internalID: -7343736504891969453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RUN_3
+      name: RedMoonTower_free_idle_animation._3
       rect:
         serializedVersion: 2
-        x: 461
-        y: 5
-        width: 66
-        height: 61
+        x: 315
+        y: 4
+        width: 70
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5733ad8e064bb4c0800000000000000
-      internalID: -4270742793311013030
+      spriteID: 19dc8371d7fd29ba0800000000000000
+      internalID: -6083554418270614127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RUN_4
+      name: RedMoonTower_free_idle_animation._4
       rect:
         serializedVersion: 2
-        x: 625
-        y: 5
-        width: 49
-        height: 58
+        x: 415
+        y: 4
+        width: 70
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5828fdf45eee7f1c0800000000000000
-      internalID: -4469841436486958459
+      spriteID: a8a25142747724d90800000000000000
+      internalID: -7114993313860212086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RUN_5
+      name: RedMoonTower_free_idle_animation._5
       rect:
         serializedVersion: 2
-        x: 767
-        y: 5
-        width: 52
-        height: 59
+        x: 515
+        y: 4
+        width: 70
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f631e4f8e418c9fa0800000000000000
-      internalID: -5792612846293609617
+      spriteID: bcf0877db0818c2b0800000000000000
+      internalID: -5564170900477571125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RUN_6
+      name: RedMoonTower_free_idle_animation._6
       rect:
         serializedVersion: 2
-        x: 905
-        y: 8
-        width: 62
-        height: 58
+        x: 615
+        y: 4
+        width: 70
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75e0488f6f918fed0800000000000000
-      internalID: -2380123854543253929
+      spriteID: d0e8af29da0d8bd30800000000000000
+      internalID: 4447534075942178317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RUN_7
+      name: RedMoonTower_free_idle_animation._7
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 5
-        width: 57
-        height: 60
+        x: 715
+        y: 4
+        width: 70
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +299,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7061448ecac505bf0800000000000000
-      internalID: -337668074351880697
+      spriteID: d6276871096fabc60800000000000000
+      internalID: 7834845600494809709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMoonTower_free_idle_animation._8
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 4
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e610741c1dbe46f0800000000000000
+      internalID: -698412963896224032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMoonTower_free_idle_animation._9
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 4
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4f2f423dd37d1e0800000000000000
+      internalID: -2173200318115679039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedMoonTower_free_idle_animation._10
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 4
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7f6b875d44a7a30800000000000000
+      internalID: 4213756085002500049
       vertices: []
       indices: 
       edges: []
@@ -310,14 +385,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RUN_0: -4726913989911992049
-      RUN_1: -1224304467317232117
-      RUN_2: 3159551424834153068
-      RUN_3: -4270742793311013030
-      RUN_4: -4469841436486958459
-      RUN_5: -5792612846293609617
-      RUN_6: -2380123854543253929
-      RUN_7: -337668074351880697
+      RedMoonTower_free_idle_animation._0: -4227435001158437254
+      RedMoonTower_free_idle_animation._1: -4233646917209677197
+      RedMoonTower_free_idle_animation._10: 4213756085002500049
+      RedMoonTower_free_idle_animation._2: -7343736504891969453
+      RedMoonTower_free_idle_animation._3: -6083554418270614127
+      RedMoonTower_free_idle_animation._4: -7114993313860212086
+      RedMoonTower_free_idle_animation._5: -5564170900477571125
+      RedMoonTower_free_idle_animation._6: 4447534075942178317
+      RedMoonTower_free_idle_animation._7: 7834845600494809709
+      RedMoonTower_free_idle_animation._8: -698412963896224032
+      RedMoonTower_free_idle_animation._9: -2173200318115679039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

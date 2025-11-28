@@ -42,24 +42,24 @@ public class Inimigo : MonoBehaviour
                 // anda para a direita
                 if (dx > 0)
                 {
-                    rb.velocity = new Vector2(velocidade, rb.velocity.y);
+                    rb.linearVelocity = new Vector2(velocidade, rb.linearVelocity.y);
                     spriteRenderer.flipX = false;
                 }
                 // anda para a esquerda
                 else if (dx < 0)
                 {
-                    rb.velocity = new Vector2(-velocidade, rb.velocity.y);
+                    rb.linearVelocity = new Vector2(-velocidade, rb.linearVelocity.y);
                     spriteRenderer.flipX = true;
                 }
             }
             else
             {
                 // não viu o player = Idle
-                rb.velocity = new Vector2(0, rb.velocity.y);
+                rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
             }
 
             // envia velocidade horizontal pro Animator
-            float velAtual = Mathf.Abs(rb.velocity.x);
+            float velAtual = Mathf.Abs(rb.linearVelocity.x);
             anim.SetFloat("Speed", velAtual);
         }
     }
