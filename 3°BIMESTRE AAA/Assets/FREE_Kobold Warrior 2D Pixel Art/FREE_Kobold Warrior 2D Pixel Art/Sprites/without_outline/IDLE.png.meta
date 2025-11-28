@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: ea4e6fc01e852f542ab1c636e544b199
+guid: f02f6c36b5df28c4091426213128f4bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6487093927834282070
-    second: TheForestSpirit-Run_0
+      213: 815424164945274260
+    second: IDLE_0
   - first:
-      213: -6793776715211265471
-    second: TheForestSpirit-Run_1
+      213: -270785710348516584
+    second: IDLE_1
   - first:
-      213: -8002824375500021553
-    second: TheForestSpirit-Run_2
+      213: 8443794771774750484
+    second: IDLE_2
   - first:
-      213: 1303271300365791760
-    second: TheForestSpirit-Run_3
+      213: 1777182293076053196
+    second: IDLE_3
+  - first:
+      213: 6114163804962241700
+    second: IDLE_4
+  - first:
+      213: -7154528564402915179
+    second: IDLE_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,43 +111,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TheForestSpirit-Run_0
+      name: IDLE_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 11
-        height: 23
+        x: 27
+        y: 5
+        width: 51
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa718d6517639f5a0800000000000000
-      internalID: -6487093927834282070
+      spriteID: 49525dc25f7f05b00800000000000000
+      internalID: 815424164945274260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TheForestSpirit-Run_1
+      name: IDLE_1
       rect:
         serializedVersion: 2
-        x: 57
-        y: 0
-        width: 11
-        height: 24
+        x: 175
+        y: 5
+        width: 51
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14a238e8218a7b1a0800000000000000
-      internalID: -6793776715211265471
+      spriteID: 813cc64c4d9fd3cf0800000000000000
+      internalID: -270785710348516584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TheForestSpirit-Run_2
+      name: IDLE_2
       rect:
         serializedVersion: 2
-        x: 113
-        y: 0
-        width: 11
-        height: 23
+        x: 323
+        y: 5
+        width: 51
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc0eb7a91a140f090800000000000000
-      internalID: -8002824375500021553
+      spriteID: 41f3fe79b926e2570800000000000000
+      internalID: 8443794771774750484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TheForestSpirit-Run_3
+      name: IDLE_3
       rect:
         serializedVersion: 2
-        x: 169
-        y: 0
-        width: 11
-        height: 24
+        x: 472
+        y: 5
+        width: 50
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +196,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 012b348b756261210800000000000000
-      internalID: 1303271300365791760
+      spriteID: ccc89ef21e1d9a810800000000000000
+      internalID: 1777182293076053196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_4
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 5
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac335d169fd9d450800000000000000
+      internalID: 6114163804962241700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_5
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 5
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598f06f4d2206bc90800000000000000
+      internalID: -7154528564402915179
       vertices: []
       indices: 
       edges: []
@@ -235,11 +259,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      TheForestSpirit-Run_0: -6487093927834282070
-      TheForestSpirit-Run_1: -6793776715211265471
-      TheForestSpirit-Run_2: -8002824375500021553
-      TheForestSpirit-Run_3: 1303271300365791760
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
