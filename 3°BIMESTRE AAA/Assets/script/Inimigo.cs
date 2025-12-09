@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Inimigo : MonoBehaviour
+public class inimigo : MonoBehaviour
 {
     
     private SpriteRenderer spriteRenderer;
